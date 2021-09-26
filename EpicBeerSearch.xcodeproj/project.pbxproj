@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091510D926FA833800587215 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091510D826FA833800587215 /* AppDelegate.swift */; };
+		091510DB26FA833800587215 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091510DA26FA833800587215 /* SceneDelegate.swift */; };
+		091510DD26FA833800587215 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091510DC26FA833800587215 /* ViewController.swift */; };
+		091510E026FA833800587215 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091510DE26FA833800587215 /* Main.storyboard */; };
+		091510E226FA833A00587215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091510E126FA833A00587215 /* Assets.xcassets */; };
+		091510E526FA833A00587215 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091510E326FA833A00587215 /* LaunchScreen.storyboard */; };
+		091510F026FA833B00587215 /* ResultsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091510EF26FA833B00587215 /* ResultsViewModelTests.swift */; };
+		091510FA26FA833B00587215 /* EpicBeerSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091510F926FA833B00587215 /* EpicBeerSearchUITests.swift */; };
+		091510FC26FA833B00587215 /* EpicBeerSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091510FB26FA833B00587215 /* EpicBeerSearchUITestsLaunchTests.swift */; };
+		0915110926FA892E00587215 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915110826FA892E00587215 /* MainCoordinator.swift */; };
+		0915110B26FA8B5000587215 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915110A26FA8B5000587215 /* UIStoryboard.swift */; };
+		0915110D26FB366500587215 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915110C26FB366500587215 /* SearchService.swift */; };
+		0915111026FB393600587215 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 0915110F26FB393600587215 /* RxBlocking */; };
+		0915111226FB393600587215 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 0915111126FB393600587215 /* RxCocoa */; };
+		0915111426FB393600587215 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 0915111326FB393600587215 /* RxRelay */; };
+		0915111626FB393600587215 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0915111526FB393600587215 /* RxSwift */; };
+		0915111826FB393600587215 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 0915111726FB393600587215 /* RxTest */; };
+		097829AF26FC92C200E2E96D /* ResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097829AE26FC92C200E2E96D /* ResultsViewModel.swift */; };
+		097829B326FCE90900E2E96D /* ObservableConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097829B226FCE90900E2E96D /* ObservableConvertibleType.swift */; };
+		097829B526FCF66800E2E96D /* PreviousSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097829B426FCF66800E2E96D /* PreviousSearchCell.swift */; };
+		09F209DC26FDF26100B41160 /* RxSwiftExt in Frameworks */ = {isa = PBXBuildFile; productRef = 09F209DB26FDF26100B41160 /* RxSwiftExt */; };
+		09F209DE26FE1FAA00B41160 /* InformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F209DD26FE1FAA00B41160 /* InformationCell.swift */; };
+		09F209E026FF971500B41160 /* BeerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F209DF26FF971500B41160 /* BeerCell.swift */; };
+		09F209E42700898E00B41160 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F209E32700898E00B41160 /* UIImageView.swift */; };
+		09F209E627008A7D00B41160 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F209E527008A7D00B41160 /* UITableView.swift */; };
+		09F209E827008ACC00B41160 /* ObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F209E727008ACC00B41160 /* ObservableType.swift */; };
+		09F209EA27008DBF00B41160 /* SearchServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F209E927008DBF00B41160 /* SearchServiceMock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		091510EC26FA833B00587215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 091510CD26FA833700587215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 091510D426FA833800587215;
+			remoteInfo = EpicBeerSearch;
+		};
+		091510F626FA833B00587215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 091510CD26FA833700587215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 091510D426FA833800587215;
+			remoteInfo = EpicBeerSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		091510D526FA833800587215 /* EpicBeerSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpicBeerSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		091510D826FA833800587215 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		091510DA26FA833800587215 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		091510DC26FA833800587215 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		091510DF26FA833800587215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		091510E126FA833A00587215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		091510E426FA833A00587215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		091510E626FA833A00587215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091510EB26FA833B00587215 /* EpicBeerSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpicBeerSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		091510EF26FA833B00587215 /* ResultsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewModelTests.swift; sourceTree = "<group>"; };
+		091510F526FA833B00587215 /* EpicBeerSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpicBeerSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		091510F926FA833B00587215 /* EpicBeerSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicBeerSearchUITests.swift; sourceTree = "<group>"; };
+		091510FB26FA833B00587215 /* EpicBeerSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicBeerSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0915110826FA892E00587215 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainCoordinator.swift; path = ../../MainCoordinator.swift; sourceTree = "<group>"; };
+		0915110A26FA8B5000587215 /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		0915110C26FB366500587215 /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		097829AE26FC92C200E2E96D /* ResultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewModel.swift; sourceTree = "<group>"; };
+		097829B226FCE90900E2E96D /* ObservableConvertibleType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableConvertibleType.swift; sourceTree = "<group>"; };
+		097829B426FCF66800E2E96D /* PreviousSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousSearchCell.swift; sourceTree = "<group>"; };
+		09F209DD26FE1FAA00B41160 /* InformationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationCell.swift; sourceTree = "<group>"; };
+		09F209DF26FF971500B41160 /* BeerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerCell.swift; sourceTree = "<group>"; };
+		09F209E32700898E00B41160 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		09F209E527008A7D00B41160 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		09F209E727008ACC00B41160 /* ObservableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableType.swift; sourceTree = "<group>"; };
+		09F209E927008DBF00B41160 /* SearchServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchServiceMock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		091510D226FA833800587215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0915111626FB393600587215 /* RxSwift in Frameworks */,
+				0915111426FB393600587215 /* RxRelay in Frameworks */,
+				09F209DC26FDF26100B41160 /* RxSwiftExt in Frameworks */,
+				0915111226FB393600587215 /* RxCocoa in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091510E826FA833B00587215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0915111826FB393600587215 /* RxTest in Frameworks */,
+				0915111026FB393600587215 /* RxBlocking in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091510F226FA833B00587215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091510CC26FA833700587215 = {
+			isa = PBXGroup;
+			children = (
+				091510D726FA833800587215 /* EpicBeerSearch */,
+				091510EE26FA833B00587215 /* EpicBeerSearchTests */,
+				091510F826FA833B00587215 /* EpicBeerSearchUITests */,
+				091510D626FA833800587215 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		091510D626FA833800587215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				091510D526FA833800587215 /* EpicBeerSearch.app */,
+				091510EB26FA833B00587215 /* EpicBeerSearchTests.xctest */,
+				091510F526FA833B00587215 /* EpicBeerSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		091510D726FA833800587215 /* EpicBeerSearch */ = {
+			isa = PBXGroup;
+			children = (
+				09F209E22700897500B41160 /* Cells */,
+				09F209E12700896A00B41160 /* Extensions */,
+				091510D826FA833800587215 /* AppDelegate.swift */,
+				091510DA26FA833800587215 /* SceneDelegate.swift */,
+				0915110826FA892E00587215 /* MainCoordinator.swift */,
+				091510DC26FA833800587215 /* ViewController.swift */,
+				097829AE26FC92C200E2E96D /* ResultsViewModel.swift */,
+				0915110C26FB366500587215 /* SearchService.swift */,
+				091510DE26FA833800587215 /* Main.storyboard */,
+				091510E126FA833A00587215 /* Assets.xcassets */,
+				091510E326FA833A00587215 /* LaunchScreen.storyboard */,
+				091510E626FA833A00587215 /* Info.plist */,
+			);
+			path = EpicBeerSearch;
+			sourceTree = "<group>";
+		};
+		091510EE26FA833B00587215 /* EpicBeerSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				091510EF26FA833B00587215 /* ResultsViewModelTests.swift */,
+				09F209E927008DBF00B41160 /* SearchServiceMock.swift */,
+			);
+			path = EpicBeerSearchTests;
+			sourceTree = "<group>";
+		};
+		091510F826FA833B00587215 /* EpicBeerSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				091510F926FA833B00587215 /* EpicBeerSearchUITests.swift */,
+				091510FB26FA833B00587215 /* EpicBeerSearchUITestsLaunchTests.swift */,
+			);
+			path = EpicBeerSearchUITests;
+			sourceTree = "<group>";
+		};
+		09F209E12700896A00B41160 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				097829B226FCE90900E2E96D /* ObservableConvertibleType.swift */,
+				09F209E727008ACC00B41160 /* ObservableType.swift */,
+				09F209E32700898E00B41160 /* UIImageView.swift */,
+				0915110A26FA8B5000587215 /* UIStoryboard.swift */,
+				09F209E527008A7D00B41160 /* UITableView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		09F209E22700897500B41160 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				09F209DF26FF971500B41160 /* BeerCell.swift */,
+				09F209DD26FE1FAA00B41160 /* InformationCell.swift */,
+				097829B426FCF66800E2E96D /* PreviousSearchCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		091510D426FA833800587215 /* EpicBeerSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091510FF26FA833B00587215 /* Build configuration list for PBXNativeTarget "EpicBeerSearch" */;
+			buildPhases = (
+				091510D126FA833800587215 /* Sources */,
+				091510D226FA833800587215 /* Frameworks */,
+				091510D326FA833800587215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EpicBeerSearch;
+			packageProductDependencies = (
+				0915111126FB393600587215 /* RxCocoa */,
+				0915111326FB393600587215 /* RxRelay */,
+				0915111526FB393600587215 /* RxSwift */,
+				09F209DB26FDF26100B41160 /* RxSwiftExt */,
+			);
+			productName = EpicBeerSearch;
+			productReference = 091510D526FA833800587215 /* EpicBeerSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		091510EA26FA833B00587215 /* EpicBeerSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0915110226FA833B00587215 /* Build configuration list for PBXNativeTarget "EpicBeerSearchTests" */;
+			buildPhases = (
+				091510E726FA833B00587215 /* Sources */,
+				091510E826FA833B00587215 /* Frameworks */,
+				091510E926FA833B00587215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				091510ED26FA833B00587215 /* PBXTargetDependency */,
+			);
+			name = EpicBeerSearchTests;
+			packageProductDependencies = (
+				0915110F26FB393600587215 /* RxBlocking */,
+				0915111726FB393600587215 /* RxTest */,
+			);
+			productName = EpicBeerSearchTests;
+			productReference = 091510EB26FA833B00587215 /* EpicBeerSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		091510F426FA833B00587215 /* EpicBeerSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0915110526FA833B00587215 /* Build configuration list for PBXNativeTarget "EpicBeerSearchUITests" */;
+			buildPhases = (
+				091510F126FA833B00587215 /* Sources */,
+				091510F226FA833B00587215 /* Frameworks */,
+				091510F326FA833B00587215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				091510F726FA833B00587215 /* PBXTargetDependency */,
+			);
+			name = EpicBeerSearchUITests;
+			productName = EpicBeerSearchUITests;
+			productReference = 091510F526FA833B00587215 /* EpicBeerSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		091510CD26FA833700587215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					091510D426FA833800587215 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					091510EA26FA833B00587215 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 091510D426FA833800587215;
+					};
+					091510F426FA833B00587215 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 091510D426FA833800587215;
+					};
+				};
+			};
+			buildConfigurationList = 091510D026FA833700587215 /* Build configuration list for PBXProject "EpicBeerSearch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 091510CC26FA833700587215;
+			packageReferences = (
+				0915110E26FB393600587215 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				09F209DA26FDF26100B41160 /* XCRemoteSwiftPackageReference "RxSwiftExt" */,
+			);
+			productRefGroup = 091510D626FA833800587215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				091510D426FA833800587215 /* EpicBeerSearch */,
+				091510EA26FA833B00587215 /* EpicBeerSearchTests */,
+				091510F426FA833B00587215 /* EpicBeerSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		091510D326FA833800587215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091510E526FA833A00587215 /* LaunchScreen.storyboard in Resources */,
+				091510E226FA833A00587215 /* Assets.xcassets in Resources */,
+				091510E026FA833800587215 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091510E926FA833B00587215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091510F326FA833B00587215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		091510D126FA833800587215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091510DD26FA833800587215 /* ViewController.swift in Sources */,
+				097829AF26FC92C200E2E96D /* ResultsViewModel.swift in Sources */,
+				0915110B26FA8B5000587215 /* UIStoryboard.swift in Sources */,
+				0915110926FA892E00587215 /* MainCoordinator.swift in Sources */,
+				09F209E42700898E00B41160 /* UIImageView.swift in Sources */,
+				0915110D26FB366500587215 /* SearchService.swift in Sources */,
+				091510D926FA833800587215 /* AppDelegate.swift in Sources */,
+				09F209DE26FE1FAA00B41160 /* InformationCell.swift in Sources */,
+				09F209E827008ACC00B41160 /* ObservableType.swift in Sources */,
+				09F209E026FF971500B41160 /* BeerCell.swift in Sources */,
+				097829B326FCE90900E2E96D /* ObservableConvertibleType.swift in Sources */,
+				09F209E627008A7D00B41160 /* UITableView.swift in Sources */,
+				097829B526FCF66800E2E96D /* PreviousSearchCell.swift in Sources */,
+				091510DB26FA833800587215 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091510E726FA833B00587215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091510F026FA833B00587215 /* ResultsViewModelTests.swift in Sources */,
+				09F209EA27008DBF00B41160 /* SearchServiceMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091510F126FA833B00587215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091510FA26FA833B00587215 /* EpicBeerSearchUITests.swift in Sources */,
+				091510FC26FA833B00587215 /* EpicBeerSearchUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		091510ED26FA833B00587215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 091510D426FA833800587215 /* EpicBeerSearch */;
+			targetProxy = 091510EC26FA833B00587215 /* PBXContainerItemProxy */;
+		};
+		091510F726FA833B00587215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 091510D426FA833800587215 /* EpicBeerSearch */;
+			targetProxy = 091510F626FA833B00587215 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		091510DE26FA833800587215 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091510DF26FA833800587215 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		091510E326FA833A00587215 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091510E426FA833A00587215 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		091510FD26FA833B00587215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		091510FE26FA833B00587215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0915110026FA833B00587215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EpicBeerSearch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = star.dot.star.EpicBeerSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0915110126FA833B00587215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EpicBeerSearch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = star.dot.star.EpicBeerSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0915110326FA833B00587215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = star.dot.star.EpicBeerSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpicBeerSearch.app/EpicBeerSearch";
+			};
+			name = Debug;
+		};
+		0915110426FA833B00587215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = star.dot.star.EpicBeerSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpicBeerSearch.app/EpicBeerSearch";
+			};
+			name = Release;
+		};
+		0915110626FA833B00587215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = star.dot.star.EpicBeerSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EpicBeerSearch;
+			};
+			name = Debug;
+		};
+		0915110726FA833B00587215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = star.dot.star.EpicBeerSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EpicBeerSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		091510D026FA833700587215 /* Build configuration list for PBXProject "EpicBeerSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091510FD26FA833B00587215 /* Debug */,
+				091510FE26FA833B00587215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		091510FF26FA833B00587215 /* Build configuration list for PBXNativeTarget "EpicBeerSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0915110026FA833B00587215 /* Debug */,
+				0915110126FA833B00587215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0915110226FA833B00587215 /* Build configuration list for PBXNativeTarget "EpicBeerSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0915110326FA833B00587215 /* Debug */,
+				0915110426FA833B00587215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0915110526FA833B00587215 /* Build configuration list for PBXNativeTarget "EpicBeerSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0915110626FA833B00587215 /* Debug */,
+				0915110726FA833B00587215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0915110E26FB393600587215 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		09F209DA26FDF26100B41160 /* XCRemoteSwiftPackageReference "RxSwiftExt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxSwiftExt";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0915110F26FB393600587215 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0915110E26FB393600587215 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		0915111126FB393600587215 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0915110E26FB393600587215 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		0915111326FB393600587215 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0915110E26FB393600587215 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		0915111526FB393600587215 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0915110E26FB393600587215 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		0915111726FB393600587215 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0915110E26FB393600587215 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+		09F209DB26FDF26100B41160 /* RxSwiftExt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09F209DA26FDF26100B41160 /* XCRemoteSwiftPackageReference "RxSwiftExt" */;
+			productName = RxSwiftExt;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 091510CD26FA833700587215 /* Project object */;
+}
